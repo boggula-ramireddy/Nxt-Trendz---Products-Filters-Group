@@ -1,0 +1,38 @@
+.filters-group-container {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+.filter-button {
+  height: 20px;
+  text-align: start;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.rating-img {
+  height: 3vh;
+  width: 10vw;
+}
+.clear-button {
+  height: 20px;
+  width: 10vw;
+  margin-top: 20px;
+}
+.input-container {
+  height: 4vh;
+  width: 20vw;
+  border-radius: 5px;
+}
